@@ -1,0 +1,68 @@
+[
+    {
+        "companyName": "QA InfoTech (Nov. 2018 — Present)",
+        "projects": [
+            {
+                "id": 1,
+                "title": "Involvesoft",
+                "url": "https://www.involvesoft.com/",
+                "imageUrl": "https://i.imgur.com/eA7oJed.png",
+                "workingLanguages": "React JS, CSS3, HTML5, JavaScript, JQuery, MySQL, PHP",
+                "description": "Involvesoft web application is basically an event management website. Involvesoft has multiple websites for multiple clients for event management with customized features. This is used to create events, communities and users are able to attend event by using the RSVP feature of the website."
+            },
+            {
+                "id": 2,
+                "title": "myTeachstone",
+                "url": "https://teachstone.com/",
+                "imageUrl": "https://i.imgur.com/BTlxYpl.png",
+                "workingLanguages": "React JS, CSS3, HTML5, JavaScript, JQuery",
+                "description": "This is the application for education, like coaching, observation, learning resources for student, teachers."
+            },
+            {
+                "id": 3,
+                "title": "Donor concierge",
+                "url": "https://www.donorconcierge.com/",
+                "imageUrl": "https://i.imgur.com/KPKsfPK.png",
+                "workingLanguages": "AngularJS, CSS3, JQuery, AJAX, Node JS",
+                "description": "SPA to manage egg donors, portfolios, clients, organizations. This application will connect Intended Parents to Donors."
+            },
+            {
+                "id": 4,
+                "title": "Devlabs Website",
+                "url": "https://qaitdevlabs.com",
+                "imageUrl": "https://i.imgur.com/vp2l2nN.png",
+                "workingLanguages": "PHP, HTML5, CSS3, Bootstrap 4, JavaScript",
+                "description": "Fixed accessibility related issues following WCAG 2.1 compliance"
+            }
+        ]
+    },
+    {
+        "companyName": "uCertify (Jan. 2018 — Oct. 2018)",
+        "projects": [
+            {
+                "id": 1,
+                "title": "Image Annotation",
+                "url": "https://www.ucertify.com/",
+                "imageUrl": "https://i.imgur.com/VpwBhsK.png",
+                "workingLanguages": "React JS, CSS3, Bootstrap4, HTML5, JavaScript, JQuery",
+                "description": "SPA to make the annotated image. Base language is React JS."
+            },
+            {
+                "id": 2,
+                "title": "Content Diagnostic",
+                "url": "https://www.ucertify.com/",
+                "imageUrl": "https://i.imgur.com/VpwBhsK.png",
+                "workingLanguages": "PHP, CSS3, Bootstrap4, HTML5, JavaScript, JQuery",
+                "description": "This project is used for finding the errors in XML, HTML. The base the language used is PHP."
+            },
+            {
+                "id": 3,
+                "title": "Slideshow/Timeline",
+                "url": "https://www.ucertify.com/",
+                "imageUrl": "https://i.imgur.com/VpwBhsK.png",
+                "workingLanguages": "PHP, React JS, CSS3, Bootstrap4, HTML5, JavaScript, Jquery",
+                "description": "SPA to show the information/image as a slideshow/timeline."
+            }
+        ]
+    }
+]

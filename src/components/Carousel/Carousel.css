@@ -1,0 +1,54 @@
+.Carousel {
+    padding: 1.2rem 0 5.5rem;
+}
+
+.Carousel__nextArrow,
+.Carousel__prevArrow {
+    top: 50%;
+    width: 52px;
+    z-index: 999;
+    height: 52px;
+    opacity: .85;
+    display: block;
+    cursor: pointer;
+    line-height: 52px;
+    position: absolute;
+    border-radius: 50%;
+    text-align: center;
+    background: #FFF;
+    transform: translateY(-50%);
+    transition: opacity 300ms ease;
+    box-shadow: 1px 1px 6px rgb(0 0 0 / 50%);
+    -webkit-transform: translateY(-50%);
+}
+
+.Carousel__nextArrow:hover,
+.Carousel__prevArrow:hover {
+    opacity: 1;
+}
+
+.Carousel__prevArrow {
+    left: -18px;
+}
+
+.Carousel__nextArrow {
+    right: -18px;
+}
+
+.Carousel .name-box {
+    padding-left: 20px
+}
+
+@media screen and (max-width: 650px) {
+    .Carousel {
+        padding: 1.8rem 0 ;
+    }
+
+    .Carousel__prevArrow {
+        left: -10px;
+    }
+    
+    .Carousel__nextArrow {
+        right: -10px;
+    }
+}

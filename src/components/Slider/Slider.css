@@ -1,0 +1,99 @@
+.Slider-Box {
+    padding: 5%;
+    margin-top: 3%;
+    background-color: #FFF;
+}
+
+.Slider__paper-box {
+    height: 250px;
+    margin-bottom: 5%;
+    width: 90% !important;
+}
+
+.Slider__media {
+    width: 100px;
+    margin: auto;
+    height: 100px;
+    margin-bottom: 6%;
+}
+
+.Slider .Carousel {
+    padding: 0;
+}
+
+.Slider .Carousel__nextArrow,
+.Slider .Carousel__prevArrow {
+    top: 50%;
+    width: 52px;
+    height: 52px;
+    z-index: 999;
+    opacity: 0.7;
+    display: block;
+    cursor: pointer;
+    box-shadow: none;
+    line-height: 52px;
+    position: absolute;
+    text-align: center;
+    border-radius: 50%;
+    background: transparent;
+    transform: translateY(-50%);
+    transition: opacity 300ms ease;
+    -webkit-transform: translateY(-50%);
+}
+
+.Slider .Carousel__nextArrow svg,
+.Slider .Carousel__prevArrow svg {
+    color: #5b43d6;
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+.Slider .Carousel__nextArrow:hover,
+.Slider .Carousel__prevArrow:hover {
+    opacity: 1;
+}
+
+.Slider .Carousel__prevArrow {
+    left: -4%;
+}
+
+.Slider .Carousel__nextArrow {
+    right: -4%;
+}
+
+.Slider .grid-box {
+    border: 1px solid #EEE;
+}
+
+.Slider .name-box {
+    padding-left: 20px
+}
+
+.Slider .card-footer span,
+.Slider .card-footer h6 {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+@media screen and (max-width: 1260px) {
+    .Slider .slick-slide {
+        display: flex;
+        justify-content: center;
+    }
+
+    .Slider .Carousel__prevArrow {
+        left: -10px;
+    }
+    
+    .Slider .Carousel__nextArrow {
+        right: -10px;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .Slider .slick-slide {
+        display: flex;
+        justify-content: center;
+    }
+}
