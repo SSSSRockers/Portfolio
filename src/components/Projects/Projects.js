@@ -13,7 +13,7 @@ const useStyles = makeStyles((theme) => ({
         padding: theme.spacing(2),
         margin: "auto",
         flex: '0 0 47%',
-        minHeight: "200px",
+        minHeight: "250px",
         marginBottom: "3%"
     },
     image: {

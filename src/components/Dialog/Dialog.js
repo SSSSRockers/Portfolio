@@ -14,6 +14,7 @@ import ListItemText from '@material-ui/core/ListItemText';
 import DialogTitle from '@material-ui/core/DialogTitle';
 import FileCopyIcon from '@material-ui/icons/FileCopy';
 import { blue } from '@material-ui/core/colors';
+import * as clipboard from "clipboard-polyfill/text";
 
 const useStyles = makeStyles({
     avatar: {
@@ -36,11 +37,56 @@ function SimpleDialog(props) {
     };
 
     const handleListItemClick = (value) => {
-        textRef.current.select();
-        document.execCommand('copy');
+		//let textArea = document.createElement('textArea');
+		//textArea.readOnly = true;
+		//textArea.contentEditable = true;
+        //textArea.value = textRef.current.value;
+        //document.body.appendChild(textArea);
+		
+		//if (navigator.userAgent.match(/ipad|iphone/i)) {
+        //    let range = document.createRange();
+        //    range.selectNodeContents(textArea);
+        //    let selection = window.getSelection();
+        //    selection.removeAllRanges();
+        //    selection.addRange(range);
+        //    textArea.setSelectionRange(0, 999999);
+        //} else {
+        //    textArea.select();
+        //}
+		
+		//document.execCommand('copy');
+        //document.body.removeChild(textArea);
+		clipboard.writeText(textRef.current.value).then(
+			function () {
+				setOpenSackBar(true);
+			},
+			function () {
+			  console.log("error!");
+			}
+		 );
         onClose(value);
-        setOpenSackBar(true);
     };
+	
+	function iosCopyToClipboard(el) {
+		var oldContentEditable = el.contentEditable,
+			oldReadOnly = el.readOnly,
+			range = document.createRange();
+
+		el.contentEditable = true;
+		el.readOnly = false;
+		range.selectNodeContents(el);
+
+		var s = window.getSelection();
+		s.removeAllRanges();
+		s.addRange(range);
+
+		el.setSelectionRange(0, 999999); // A big number, to cover anything that could be inside the element.
+
+		el.contentEditable = oldContentEditable;
+		el.readOnly = oldReadOnly;
+
+		document.execCommand('copy');
+	}
 
   return (
         <>
