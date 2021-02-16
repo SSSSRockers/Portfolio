@@ -27,7 +27,10 @@ const useStyles = makeStyles((theme) => ({
         maxHeight: "100%",
     },
     marginAuto: {
-        margin: 'auto'
+        margin: 'auto',
+    },
+    bodyBox: {
+        minHeight: '120px',
     }
 }));
 
@@ -74,7 +77,7 @@ function Projects() {
                                             <Typography gutterBottom variant="subtitle1">
                                                 {data.title}
                                             </Typography>
-                                            <Box height="110px">
+                                            <Box className={classes.bodyBox}>
                                                 <Typography variant="body2" gutterBottom>
                                                     {data.description}
                                                 </Typography>

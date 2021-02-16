@@ -45,15 +45,16 @@ function customSkills(props) {
     const icons = {
         1:  'https://i.imgur.com/2mIQwwa.png',
         2:  'https://i.imgur.com/YDOeByd.png',
-        3:  'https://i.imgur.com/AOW9XTD.png',
-        4:  'https://i.imgur.com/qVfhAs4.png',
-        5:  'https://i.imgur.com/gxL7keQ.png',
-        6:  'https://i.imgur.com/xS8Qsj0.png',
-        7:  'https://i.imgur.com/orwUGNS.png',
-        8:  'https://i.imgur.com/x3mQjrm.png',
-        9:  'https://i.imgur.com/gOgKa84.png',
-        10: 'https://i.imgur.com/Aof901R.png',
-        11: 'https://i.imgur.com/3xLjLXX.png'
+        3:  'https://i.imgur.com/BNv4bzz.png',
+        4:  'https://i.imgur.com/AOW9XTD.png',
+        5:  'https://i.imgur.com/qVfhAs4.png',
+        6:  'https://i.imgur.com/gxL7keQ.png',
+        7:  'https://i.imgur.com/xS8Qsj0.png',
+        8:  'https://i.imgur.com/orwUGNS.png',
+        9:  'https://i.imgur.com/x3mQjrm.png',
+        10:  'https://i.imgur.com/gOgKa84.png',
+        11: 'https://i.imgur.com/Aof901R.png',
+        12: 'https://i.imgur.com/3xLjLXX.png'
     };
 
     return (
@@ -88,7 +89,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 function getSteps() {
-    return ['React JS', 'Javascript', 'HTML5', 'CSS3', 'Bootstrap 4', 'Material-UI', 'jQuery', 'PHP', 'Git', 'AngularJS', 'MySQL'];
+    return ['React JS', 'JavaScript', 'TypeScript', 'HTML5', 'CSS3', 'Bootstrap 4', 'Material-UI', 'jQuery', 'PHP', 'Git', 'AngularJS', 'MySQL'];
 }
 
 export default function Skills() {

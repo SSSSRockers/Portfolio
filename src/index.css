@@ -52,6 +52,39 @@ code {
   margin-bottom: 4% !important;
 }
 
+@media only screen and (max-width: 900px) {
+  .projectPaperBox {
+    flex: auto !important;
+  }
+
+  .Slider__paper-box {
+    height: 300px !important;
+  }
+
+  .Skills {
+    padding: 8%;
+  }
+
+  .Skills > div {
+    overflow: auto;
+  }
+
+  .Skills > div:-webkit-scrollbar-track {
+    background-color: #F5F5F5;
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  }
+  
+  .Skills > div::-webkit-scrollbar {
+    height: 6px;
+    background-color: #F5F5F5;
+  }
+  
+  .Skills > div::-webkit-scrollbar-thumb {
+    background-color: #000000;
+  }
+}
+
 @media only screen and (max-width: 700px) {
   .projectPaperBox {
     flex: auto !important;
