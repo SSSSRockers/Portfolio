@@ -145,19 +145,19 @@ function Header(props) {
       onClose={handleMobileMenuClose}
     >
       <MenuItem onClick={(event) =>handleScrollMenu('about', event)}>
-        <IconButton aria-label="show 4 new mails" color="inherit">
+        <IconButton aria-label="about me" color="inherit">
           <Bookmarks />
         </IconButton>
         <p>About</p>
       </MenuItem>
       <MenuItem onClick={(event) =>handleScrollMenu('projects', event)}>
-        <IconButton aria-label="show 4 new mails" color="inherit">
+        <IconButton aria-label="project information" color="inherit">
           <AccountTree />
         </IconButton>
         <p>Projects</p>
       </MenuItem>
       <MenuItem onClick={(event) =>handleScrollMenu('contact', event)}>
-        <IconButton aria-label="show 11 new notifications" color="inherit">
+        <IconButton aria-label="contact me" color="inherit">
           <Contacts />
         </IconButton>
         <p>Contact</p>

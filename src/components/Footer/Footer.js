@@ -24,7 +24,7 @@ export default function Footer() {
                 window.open("tel:+91-813-011-0350", "__blank");
                 break;
             default:
-                window.open("https://drive.google.com/file/d/1t-xZSVuc_9vJFap5PGBpIkw9mLdSwPFd/view", "__blank");
+                window.open("https://drive.google.com/file/d/1V_A3ZlM3uh3Uf1HjAWq6Qcpo1L5DmoMK/view", "__blank");
                 break;
         }
     }

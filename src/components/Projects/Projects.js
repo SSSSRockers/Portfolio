@@ -20,6 +20,11 @@ const useStyles = makeStyles((theme) => ({
         width: 128,
         height: 128,
     },
+    imageBlack: {
+        width: 128,
+        height: 128,
+        backgroundColor: 'black',
+    },
     img: {
         margin: "auto",
         display: "block",
@@ -62,7 +67,7 @@ function Projects() {
                                 <Grid container spacing={2}>
                                     <Grid item className={classes.marginAuto}>
                                         <Link href={data.url} color="inherit">
-                                            <ButtonBase className={classes.image}>
+                                            <ButtonBase className={data.url != 'https://www.cdcit.co.uk/' ? classes.image : classes.imageBlack}>
                                                 <img
                                                     className={classes.img}
                                                     alt={data.title}

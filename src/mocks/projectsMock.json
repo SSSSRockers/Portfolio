@@ -7,7 +7,7 @@
                 "title": "Achieve3000",
                 "url": "https://www.achieve3000.com/",
                 "imageUrl": "https://i.imgur.com/qTQx7cm.png",
-                "workingLanguages": "React JS, TypeScript, HTML5, CSS3, JavaScript, Material-UI, JQuery, MySQL, PHP",
+                "workingLanguages": "React JS, TypeScript, HTML5, CSS3, JavaScript, Material-UI, JQuery, MySQL, PHP, JIRA, Jenkins",
                 "description": "It is based on e-learning platform which helps educators to unlock student potential and accelerate learning growth. It is a supplemental online literacy program that provides nonfiction reading content to students in grades preK–12 and focuses on building phonemic awareness, phonics, fluency, reading comprehension, vocabulary, and writing skills."
             },
             {
@@ -53,29 +53,29 @@
         ]
     },
     {
-        "companyName": "uCertify (Jan. 2018 — Oct. 2018)",
+        "companyName": "CDC IT Services Ltd (Sept. 2017 — Oct. 2018)",
         "projects": [
             {
                 "id": 1,
                 "title": "Image Annotation",
-                "url": "https://www.ucertify.com/",
-                "imageUrl": "https://i.imgur.com/VpwBhsK.png",
+                "url": "https://www.cdcit.co.uk/",
+                "imageUrl": "https://i.imgur.com/sbOLMMw.png",
                 "workingLanguages": "React JS, CSS3, Bootstrap4, HTML5, JavaScript, JQuery",
                 "description": "SPA to make the annotated image. Base language is React JS."
             },
             {
                 "id": 2,
                 "title": "Content Diagnostic",
-                "url": "https://www.ucertify.com/",
-                "imageUrl": "https://i.imgur.com/VpwBhsK.png",
+                "url": "https://www.cdcit.co.uk/",
+                "imageUrl": "https://i.imgur.com/sbOLMMw.png",
                 "workingLanguages": "PHP, CSS3, Bootstrap4, HTML5, JavaScript, JQuery",
                 "description": "This project is used for finding the errors in XML, HTML. The base the language used is PHP."
             },
             {
                 "id": 3,
                 "title": "Slideshow/Timeline",
-                "url": "https://www.ucertify.com/",
-                "imageUrl": "https://i.imgur.com/VpwBhsK.png",
+                "url": "https://www.cdcit.co.uk/",
+                "imageUrl": "https://i.imgur.com/sbOLMMw.png",
                 "workingLanguages": "PHP, React JS, CSS3, Bootstrap4, HTML5, JavaScript, Jquery",
                 "description": "SPA to show the information/image as a slideshow/timeline."
             }
