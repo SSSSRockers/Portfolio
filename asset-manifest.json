@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.9f3d3aea.css",
-    "main.js": "/static/js/main.d7dd22cc.js",
-    "static/media/analytics.svg": "/static/media/analytics.868dfb6406482af41cd491c7f9c03ac2.svg",
-    "static/media/mobile-friendly.svg": "/static/media/mobile-friendly.a9f55f50feb8d8179d3562a1c7352f95.svg",
-    "static/media/ecommerce.svg": "/static/media/ecommerce.884ff9122efe60cd6b3a306fa53688e1.svg",
-    "static/media/content-management.svg": "/static/media/content-management.7677f881ebc47b8b474add18efca2141.svg",
-    "static/media/development.svg": "/static/media/development.f5030dda8da98ba8034ea7cbb6fa7bf1.svg",
-    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
-    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
-    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
-    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
-    "index.html": "/index.html",
-    "main.9f3d3aea.css.map": "/static/css/main.9f3d3aea.css.map",
-    "main.d7dd22cc.js.map": "/static/js/main.d7dd22cc.js.map"
+    "main.css": "./static/css/main.7b0f4480.css",
+    "main.js": "./static/js/main.6ad190bf.js",
+    "static/media/analytics.svg": "./static/media/analytics.868dfb6406482af41cd491c7f9c03ac2.svg",
+    "static/media/mobile-friendly.svg": "./static/media/mobile-friendly.a9f55f50feb8d8179d3562a1c7352f95.svg",
+    "static/media/ecommerce.svg": "./static/media/ecommerce.884ff9122efe60cd6b3a306fa53688e1.svg",
+    "static/media/content-management.svg": "./static/media/content-management.7677f881ebc47b8b474add18efca2141.svg",
+    "static/media/development.svg": "./static/media/development.f5030dda8da98ba8034ea7cbb6fa7bf1.svg",
+    "static/media/slick.svg": "./static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "./static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "./static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "./static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "./index.html",
+    "main.7b0f4480.css.map": "./static/css/main.7b0f4480.css.map",
+    "main.6ad190bf.js.map": "./static/js/main.6ad190bf.js.map"
   },
   "entrypoints": [
-    "static/css/main.9f3d3aea.css",
-    "static/js/main.d7dd22cc.js"
+    "static/css/main.7b0f4480.css",
+    "static/js/main.6ad190bf.js"
   ]
 }
