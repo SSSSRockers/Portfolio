@@ -40,5 +40,5 @@
   "devDependencies": {
     "gh-pages": "^4.0.0"
   },
-  "homepage": "https://shushant-arora.github.io/Portfolio"
+  "homepage": "./index.html"
 }
