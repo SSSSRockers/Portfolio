@@ -1,29 +1,22 @@
 {
   "files": {
-    "main.css": "./index.html/static/css/main.e1065070.chunk.css",
-    "main.js": "./index.html/static/js/main.6246177b.chunk.js",
-    "main.js.map": "./index.html/static/js/main.6246177b.chunk.js.map",
-    "runtime-main.js": "./index.html/static/js/runtime-main.d5517bb9.js",
-    "runtime-main.js.map": "./index.html/static/js/runtime-main.d5517bb9.js.map",
-    "static/css/2.a1be631c.chunk.css": "./index.html/static/css/2.a1be631c.chunk.css",
-    "static/js/2.f591db1a.chunk.js": "./index.html/static/js/2.f591db1a.chunk.js",
-    "static/js/2.f591db1a.chunk.js.map": "./index.html/static/js/2.f591db1a.chunk.js.map",
+    "main.css": "./index.html/static/css/main.7b0f4480.css",
+    "main.js": "./index.html/static/js/main.04f5fbf1.js",
+    "static/media/analytics.svg": "./index.html/static/media/analytics.868dfb6406482af41cd491c7f9c03ac2.svg",
+    "static/media/mobile-friendly.svg": "./index.html/static/media/mobile-friendly.a9f55f50feb8d8179d3562a1c7352f95.svg",
+    "static/media/ecommerce.svg": "./index.html/static/media/ecommerce.884ff9122efe60cd6b3a306fa53688e1.svg",
+    "static/media/content-management.svg": "./index.html/static/media/content-management.7677f881ebc47b8b474add18efca2141.svg",
+    "static/media/development.svg": "./index.html/static/media/development.f5030dda8da98ba8034ea7cbb6fa7bf1.svg",
     "index.html": "./index.html/index.html",
-    "static/css/2.a1be631c.chunk.css.map": "./index.html/static/css/2.a1be631c.chunk.css.map",
-    "static/css/main.e1065070.chunk.css.map": "./index.html/static/css/main.e1065070.chunk.css.map",
-    "static/js/2.f591db1a.chunk.js.LICENSE.txt": "./index.html/static/js/2.f591db1a.chunk.js.LICENSE.txt",
-    "static/media/analytics.868dfb64.svg": "./index.html/static/media/analytics.868dfb64.svg",
-    "static/media/content-management.7677f881.svg": "./index.html/static/media/content-management.7677f881.svg",
-    "static/media/development.f5030dda.svg": "./index.html/static/media/development.f5030dda.svg",
-    "static/media/ecommerce.884ff912.svg": "./index.html/static/media/ecommerce.884ff912.svg",
-    "static/media/mobile-friendly.a9f55f50.svg": "./index.html/static/media/mobile-friendly.a9f55f50.svg",
-    "static/media/slick-theme.css": "./index.html/static/media/slick.c94f7671.ttf"
+    "static/media/slick.svg": "./index.html/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "./index.html/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "./index.html/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "./index.html/static/media/slick.295183786cd8a1389865.woff",
+    "main.7b0f4480.css.map": "./index.html/static/css/main.7b0f4480.css.map",
+    "main.04f5fbf1.js.map": "./index.html/static/js/main.04f5fbf1.js.map"
   },
   "entrypoints": [
-    "static/js/runtime-main.d5517bb9.js",
-    "static/css/2.a1be631c.chunk.css",
-    "static/js/2.f591db1a.chunk.js",
-    "static/css/main.e1065070.chunk.css",
-    "static/js/main.6246177b.chunk.js"
+    "static/css/main.7b0f4480.css",
+    "static/js/main.04f5fbf1.js"
   ]
 }

@@ -18,13 +18,13 @@ export default function Footer() {
                 setModalOpen(true);
                 break;
             case 1:
-                window.open("https://in.linkedin.com/in/shushant-arora-7ba6a247", "__blank");
+                window.open("https://in.linkedin.com/in/shushant-arora", "__blank");
                 break;
             case 2:
                 window.open("tel:+91-813-011-0350", "__blank");
                 break;
             default:
-                window.open("https://drive.google.com/file/d/1V_A3ZlM3uh3Uf1HjAWq6Qcpo1L5DmoMK/view", "__blank");
+                window.open("https://drive.google.com/file/d/1U54Ns20hDktg-wgvtj9n2yO9gcmSg6So/view", "__blank");
                 break;
         }
     }

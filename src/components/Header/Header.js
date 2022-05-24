@@ -173,7 +173,7 @@ function Header(props) {
             <Typography className={classes.title} noWrap>
               Shushant Arora
               <Typography className={classes.subTitle} noWrap component={'span'}>
-                Web Designer & Front End Developer
+                Front-End Developer
               </Typography>
             </Typography>
             <div className={classes.grow} />

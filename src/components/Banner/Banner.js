@@ -35,10 +35,10 @@ function Banner() {
     return (
         <Box className="Banner-Box">
             <Typography className={classes.paddingTop} variant="h5">
-                Web Designer & Front End Developer
+                Front-End Developer
             </Typography>
             <Typography className={classes.marginTop}>
-                Hands-on, comprehensive knowledge of agile methodologies and web-based applications
+                4.8 years of hands-on, comprehensive knowledge of agile methodologies and web-based applications
             </Typography>
             <Typography className={classes.marginTop}>
                 Proven ability to work on multiple projects while meeting challenging deadlines

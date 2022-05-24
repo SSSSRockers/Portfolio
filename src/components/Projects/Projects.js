@@ -67,7 +67,7 @@ function Projects() {
                                 <Grid container spacing={2}>
                                     <Grid item className={classes.marginAuto}>
                                         <Link href={data.url} color="inherit">
-                                            <ButtonBase className={data.url != 'https://www.cdcit.co.uk/' ? classes.image : classes.imageBlack}>
+                                            <ButtonBase className={data.url !== 'https://www.cdcit.co.uk/' ? classes.image : classes.imageBlack}>
                                                 <img
                                                     className={classes.img}
                                                     alt={data.title}
