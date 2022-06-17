@@ -38,7 +38,7 @@ function Banner() {
                 Front-End Developer
             </Typography>
             <Typography className={classes.marginTop}>
-                4.8 years of hands-on, comprehensive knowledge of agile methodologies and web-based applications
+                4.9 years of hands-on, comprehensive knowledge of agile methodologies and web-based applications
             </Typography>
             <Typography className={classes.marginTop}>
                 Proven ability to work on multiple projects while meeting challenging deadlines
